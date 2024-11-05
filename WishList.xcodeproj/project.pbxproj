@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		0AB44FB82CDA931300E2D23F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FB72CDA931300E2D23F /* AppDelegate.swift */; };
 		0AB44FBA2CDA931300E2D23F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FB92CDA931300E2D23F /* SceneDelegate.swift */; };
-		0AB44FBC2CDA931300E2D23F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FBB2CDA931300E2D23F /* ViewController.swift */; };
-		0AB44FBF2CDA931300E2D23F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0AB44FBE2CDA931300E2D23F /* Base */; };
+		0AB44FBC2CDA931300E2D23F /* WishMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FBB2CDA931300E2D23F /* WishMakerViewController.swift */; };
 		0AB44FC12CDA931500E2D23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB44FC02CDA931500E2D23F /* Assets.xcassets */; };
-		0AB44FC42CDA931500E2D23F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0AB44FC32CDA931500E2D23F /* Base */; };
+		0AB44FCE2CDA969800E2D23F /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FCD2CDA969800E2D23F /* CustomSlider.swift */; };
+		0AB44FD32CDAA9AA00E2D23F /* ColorChangable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FD22CDAA9AA00E2D23F /* ColorChangable.swift */; };
+		0AB44FD62CDAAA5600E2D23F /* SlidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FD52CDAAA5600E2D23F /* SlidersView.swift */; };
+		0AB44FD82CDAB2E700E2D23F /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FD72CDAB2E700E2D23F /* RandomColor.swift */; };
+		0AB44FDA2CDABF0000E2D23F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0AB44FD92CDABF0000E2D23F /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AB44FB42CDA931300E2D23F /* WishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB44FB72CDA931300E2D23F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB44FB92CDA931300E2D23F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0AB44FBB2CDA931300E2D23F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0AB44FBE2CDA931300E2D23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AB44FBB2CDA931300E2D23F /* WishMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishMakerViewController.swift; sourceTree = "<group>"; };
 		0AB44FC02CDA931500E2D23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0AB44FC32CDA931500E2D23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AB44FC52CDA931500E2D23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB44FCD2CDA969800E2D23F /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		0AB44FD22CDAA9AA00E2D23F /* ColorChangable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangable.swift; sourceTree = "<group>"; };
+		0AB44FD52CDAAA5600E2D23F /* SlidersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersView.swift; sourceTree = "<group>"; };
+		0AB44FD72CDAB2E700E2D23F /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
+		0AB44FD92CDABF0000E2D23F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		0AB44FB62CDA931300E2D23F /* WishList */ = {
 			isa = PBXGroup;
 			children = (
+				0AB44FCC2CDA968C00E2D23F /* ColorChangables */,
+				0AB44FCB2CDA963700E2D23F /* Resources */,
 				0AB44FB72CDA931300E2D23F /* AppDelegate.swift */,
 				0AB44FB92CDA931300E2D23F /* SceneDelegate.swift */,
-				0AB44FBB2CDA931300E2D23F /* ViewController.swift */,
-				0AB44FBD2CDA931300E2D23F /* Main.storyboard */,
-				0AB44FC02CDA931500E2D23F /* Assets.xcassets */,
-				0AB44FC22CDA931500E2D23F /* LaunchScreen.storyboard */,
+				0AB44FBB2CDA931300E2D23F /* WishMakerViewController.swift */,
 				0AB44FC52CDA931500E2D23F /* Info.plist */,
+				0AB44FD92CDABF0000E2D23F /* Readme.md */,
 			);
 			path = WishList;
+			sourceTree = "<group>";
+		};
+		0AB44FCB2CDA963700E2D23F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44FC02CDA931500E2D23F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0AB44FCC2CDA968C00E2D23F /* ColorChangables */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44FD42CDAAA4A00E2D23F /* Sliders */,
+				0AB44FD22CDAA9AA00E2D23F /* ColorChangable.swift */,
+				0AB44FD72CDAB2E700E2D23F /* RandomColor.swift */,
+			);
+			path = ColorChangables;
+			sourceTree = "<group>";
+		};
+		0AB44FD42CDAAA4A00E2D23F /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				0AB44FCD2CDA969800E2D23F /* CustomSlider.swift */,
+				0AB44FD52CDAAA5600E2D23F /* SlidersView.swift */,
+			);
+			path = Sliders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB44FDA2CDABF0000E2D23F /* Readme.md in Resources */,
 				0AB44FC12CDA931500E2D23F /* Assets.xcassets in Resources */,
-				0AB44FC42CDA931500E2D23F /* Base in Resources */,
-				0AB44FBF2CDA931300E2D23F /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AB44FBC2CDA931300E2D23F /* ViewController.swift in Sources */,
+				0AB44FBC2CDA931300E2D23F /* WishMakerViewController.swift in Sources */,
+				0AB44FD62CDAAA5600E2D23F /* SlidersView.swift in Sources */,
+				0AB44FD82CDAB2E700E2D23F /* RandomColor.swift in Sources */,
 				0AB44FB82CDA931300E2D23F /* AppDelegate.swift in Sources */,
+				0AB44FD32CDAA9AA00E2D23F /* ColorChangable.swift in Sources */,
 				0AB44FBA2CDA931300E2D23F /* SceneDelegate.swift in Sources */,
+				0AB44FCE2CDA969800E2D23F /* CustomSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0AB44FBD2CDA931300E2D23F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AB44FBE2CDA931300E2D23F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0AB44FC22CDA931500E2D23F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AB44FC32CDA931500E2D23F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0AB44FC62CDA931500E2D23F /* Debug */ = {
@@ -298,8 +315,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +324,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lroof.WishList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +347,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +356,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lroof.WishList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
